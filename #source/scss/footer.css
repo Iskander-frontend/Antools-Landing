@@ -1,0 +1,43 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Antools\/\%23source\/scss\/footer\.scss}line{font-family:\000034}}
+.footer {
+  padding: 70px 0 100px 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Antools\/\%23source\/scss\/footer\.scss}line{font-family:\000037}}
+.footer__inner {
+  display: flex;
+  justify-content: space-between; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Antools\/\%23source\/scss\/footer\.scss}line{font-family:\0000311}}
+.footer__box {
+  display: flex;
+  flex-direction: column;
+  max-width: 260px;
+  gap: 20px 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Antools\/\%23source\/scss\/footer\.scss}line{font-family:\0000316}}
+  .footer__box .footer__title {
+    padding: 25px 0 20px 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Antools\/\%23source\/scss\/footer\.scss}line{font-family:\0000320}}
+.footer__contact {
+  display: flex;
+  gap: 0 115px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Antools\/\%23source\/scss\/footer\.scss}line{font-family:\0000324}}
+.footer__item {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 10px;
+  transition: all 0.3s ease; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Antools\/\%23source\/scss\/footer\.scss}line{font-family:\0000330}}
+  .footer__item:hover {
+    color: #fff; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Antools\/\%23source\/scss\/footer\.scss}line{font-family:\0000334}}
+.footer__title {
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 20px;
+  color: #fff; }
+
+/*# sourceMappingURL=footer.css.map */

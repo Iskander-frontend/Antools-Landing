@@ -1,0 +1,74 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Antools\/\%23source\/scss\/slider\.scss}line{font-family:\000033}}
+.swiper {
+  width: 100%;
+  height: 600px;
+  margin: 200px 0 250px 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Antools\/\%23source\/scss\/slider\.scss}line{font-family:\000038}}
+.slider__inner {
+  display: flex;
+  justify-content: space-around;
+  position: relative; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Antools\/\%23source\/scss\/slider\.scss}line{font-family:\0000313}}
+.slider__text {
+  max-width: 400px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Antools\/\%23source\/scss\/slider\.scss}line{font-family:\0000316}}
+.slider__desc {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  line-height: 30px;
+  padding-top: 130px;
+  position: relative;
+  right: 100px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Antools\/\%23source\/scss\/slider\.scss}line{font-family:\0000324}}
+.slider__image {
+  position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Antools\/\%23source\/scss\/slider\.scss}line{font-family:\0000326}}
+  .slider__image img {
+    max-width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Antools\/\%23source\/scss\/slider\.scss}line{font-family:\0000329}}
+  .slider__image .slider__name {
+    max-width: 300px;
+    padding: 10px 22px 16px 23px;
+    position: relative;
+    top: -100px;
+    right: -125px;
+    background: rgba(40, 48, 54, 0.2);
+    backdrop-filter: blur(50px);
+    border-radius: 8px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Antools\/\%23source\/scss\/slider\.scss}line{font-family:\0000339}}
+  .slider__image .heading {
+    font-size: 26px;
+    line-height: 39px;
+    padding-bottom: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Antools\/\%23source\/scss\/slider\.scss}line{font-family:\0000344}}
+  .slider__image .desc {
+    font-size: 16px;
+    line-height: 24px;
+    padding-bottom: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Antools\/\%23source\/scss\/slider\.scss}line{font-family:\0000350}}
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  color: rgba(255, 255, 255, 0.55);
+  transition: 0.5s ease; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Antools\/\%23source\/scss\/slider\.scss}line{font-family:\0000355}}
+.swiper-button-prev:hover::after,
+.swiper-button-next:hover::after {
+  color: #FF6E30; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Antools\/\%23source\/scss\/slider\.scss}line{font-family:\0000359}}
+.swiper-pagination-bullet {
+  width: 45px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Antools\/\%23source\/scss\/slider\.scss}line{font-family:\0000364}}
+  .swiper-pagination-bullet-active {
+    background-color: #FF6E30; }
+
+/*# sourceMappingURL=slider.css.map */

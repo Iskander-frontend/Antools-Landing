@@ -1,0 +1,33 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Antools\/\%23source\/scss\/new-tools\.scss}line{font-family:\000033}}
+.new-tools__inner {
+  display: grid;
+  grid-template-columns: 35% 50%;
+  justify-content: space-between; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Antools\/\%23source\/scss\/new-tools\.scss}line{font-family:\000038}}
+.new-tools__cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 50px 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Antools\/\%23source\/scss\/new-tools\.scss}line{font-family:\0000315}}
+.desc {
+  padding-bottom: 60px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Antools\/\%23source\/scss\/new-tools\.scss}line{font-family:\0000318}}
+.tool__card {
+  max-width: 300px;
+  transition: 0.2s ease;
+  padding: 20px 30px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Antools\/\%23source\/scss\/new-tools\.scss}line{font-family:\0000322}}
+  .tool__card:hover {
+    transform: translateY(-10px);
+    background: rgba(40, 48, 54, 0.6);
+    border-radius: 15px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Antools\/\%23source\/scss\/new-tools\.scss}line{font-family:\0000326}}
+    .tool__card:hover .trans-btn {
+      background: #FF6E30;
+      color: #fff; }
+
+/*# sourceMappingURL=new-tools.css.map */

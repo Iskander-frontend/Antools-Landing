@@ -1,0 +1,77 @@
+@import "vars";
+
+.tools{
+
+}
+.tools__cards{
+  display: grid;
+  grid-template-columns: repeat(3, 30%);
+  justify-content: space-between;
+  gap: 100px 0;
+}
+.tools__card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 30px;
+  transition: 0.2s ease;
+  &:hover {
+    transform: translateY(-10px);
+    background: rgba(40, 48, 54, 0.6);
+    border-radius: 15px;
+    .trans-btn{
+      background: $orange;
+      color: $white;
+    }
+  }
+}
+.card__box{
+  display: flex;
+  padding-bottom: 30px;
+}
+.card__content{
+  padding-left: 30px;
+}
+.card__inner{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+.card__title{
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+}
+.card__subtitle{
+  color: $trans-orange;
+  line-height: 30px;
+}
+.card__desc{
+  font-size: 16px;
+  line-height: 30px;
+}
+.card__icons{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.card__icon .active{
+  svg path{
+    fill: #e33f5f;
+  }
+}
+.more{
+  display: flex;
+  justify-content: center;
+  margin: 100px 0 200px 0;
+  & .trans-btn {
+    color: $orange;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+
+    &:hover {
+      color: $white;
+      background: $orange;
+    }
+  }
+}

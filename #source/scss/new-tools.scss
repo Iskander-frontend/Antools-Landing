@@ -1,0 +1,31 @@
+@import "vars";
+
+.new-tools__inner{
+  display: grid;
+  grid-template-columns: 35% 50%;
+  justify-content: space-between;
+}
+.new-tools__cards{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 50px 0;
+}
+.new-tools__box{}
+  .desc{
+    padding-bottom: 60px;
+  }
+.tool__card{
+  max-width: 300px;
+  transition: 0.2s ease;
+  padding: 20px 30px;
+  &:hover {
+    transform: translateY(-10px);
+    background: rgba(40, 48, 54, 0.6);
+    border-radius: 15px;
+    .trans-btn{
+      background: $orange;
+      color: $white;
+    }
+  }
+}

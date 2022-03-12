@@ -1,0 +1,18 @@
+@import "vars";
+
+.brands{
+  background: $block-bg;
+  padding: 55px 82px;
+  border-radius: 25px;
+  margin: 200px 0;
+  .heading{
+    text-align: center;
+    font-size: 24px;
+    line-height: 36px;
+    padding-bottom: 55px;
+  }
+}
+.brands__content{
+  display: flex;
+  justify-content: space-between;
+}

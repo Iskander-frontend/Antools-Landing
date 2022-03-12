@@ -1,0 +1,39 @@
+@import "vars";
+
+.input{
+  position: relative;
+  text-align: center;
+  padding-bottom: 250px;
+  &:after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.15);
+  }
+  .desc{
+    max-width: 430px;
+    margin: 0 auto;
+    padding-bottom: 100px;
+  }
+}
+.input__form{
+  display: flex;
+  justify-content: space-between;
+  max-width: 550px;
+  padding: 8px 12px;
+  margin: 0 auto;
+  overflow: hidden;
+  background: #283036;
+  border-radius: 15px;
+}
+.input__field{
+  border: none;
+  background: transparent;
+  color: inherit;
+  &:focus{
+    outline: none;
+  }
+}

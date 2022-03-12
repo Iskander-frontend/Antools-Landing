@@ -1,0 +1,41 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Antools\/\%23source\/scss\/input\.scss}line{font-family:\000033}}
+.input {
+  position: relative;
+  text-align: center;
+  padding-bottom: 250px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Antools\/\%23source\/scss\/input\.scss}line{font-family:\000037}}
+  .input:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.15); }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Antools\/\%23source\/scss\/input\.scss}line{font-family:\0000316}}
+  .input .desc {
+    max-width: 430px;
+    margin: 0 auto;
+    padding-bottom: 100px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Antools\/\%23source\/scss\/input\.scss}line{font-family:\0000322}}
+.input__form {
+  display: flex;
+  justify-content: space-between;
+  max-width: 550px;
+  padding: 8px 12px;
+  margin: 0 auto;
+  overflow: hidden;
+  background: #283036;
+  border-radius: 15px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Antools\/\%23source\/scss\/input\.scss}line{font-family:\0000332}}
+.input__field {
+  border: none;
+  background: transparent;
+  color: inherit; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/Antools\/\%23source\/scss\/input\.scss}line{font-family:\0000336}}
+  .input__field:focus {
+    outline: none; }
+
+/*# sourceMappingURL=input.css.map */

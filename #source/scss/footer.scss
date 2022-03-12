@@ -1,0 +1,39 @@
+@import "vars";
+
+
+.footer{
+  padding: 70px 0 100px 0;
+}
+.footer__inner{
+  display: flex;
+  justify-content: space-between;
+}
+.footer__box{
+  display: flex;
+  flex-direction: column;
+  max-width: 260px;
+  gap: 20px 0;
+  .footer__title{
+    padding: 25px 0 20px 0;
+  }
+}
+.footer__contact{
+  display: flex;
+  gap: 0 115px;
+}
+.footer__item {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 10px;
+  transition: all 0.3s ease;
+  &:hover{
+    color: $white;
+  }
+}
+.footer__title {
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 20px;
+  color: $white;
+}
